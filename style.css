@@ -1,23 +1,32 @@
 #body{
-    background: radial-gradient(darkblue,black);
+    background: radial-gradient(rgb(118, 243, 118),white);
 }
 #textfieldcontainer{
     width: 600px;
-    height: 500px;
+    height: auto;
     margin: 50px auto 30px;
     border-radius: 100px;    
-   background: linear-gradient(violet,black);
+   background: linear-gradient(violet,white);
+   overflow: auto;
+   position: relative;
 }
 #items{
     text-align: center;
     margin: 100px auto 300px;
     padding: 10px 40px 30px;
     width: 500px;
+   
 }
 input{
     font-size: 20px;
     margin-right: 7px;
     border-radius: 10px;
+
+}
+input:hover{
+    box-shadow: 5px 5px 5px blueviolet;
+    transition: 0.5s;
+    
 }
 #button1{
     font-size: 20px;
@@ -25,4 +34,21 @@ input{
     width: 70px;
     height: 30px;
     background-color:purple;
+}
+
+ul li{
+    list-style-type: none;
+    padding: 15px 10px 10px;
+    user-select: none;
+    font-size: 20px;
+    margin-right: 200px;
+        
+}
+#check{
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+    margin-left: 10px;
+    margin-top: 5px;
+    position: relative;
 }
